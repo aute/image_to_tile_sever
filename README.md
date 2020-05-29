@@ -25,7 +25,7 @@
  `http://localhost:48888/original_image`
 
 `body:{
-	"original_image_name": "8811"
+	"original_image_file_name": "8811.png"
 }`
 
 处理结果将输出至 `tile_server_files/output` 如：
