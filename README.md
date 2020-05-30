@@ -32,6 +32,10 @@
 
 `tile_server_files/output/8811`
 
+处理完成将会在对应目录写入 `info.json`  文件如：
+
+`tile_server_files/output/8811/info.json`
+
 处理结果可通过 http 访问如：
 
 ```jsx
