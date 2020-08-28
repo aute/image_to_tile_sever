@@ -38,5 +38,4 @@ const putCallback = (req, res) => {
 const app = express();
 app.use(express.json(), express.static('./files/output'));
 app.put('/original_image', putCallback);
-app.listen(PORT);
-console.log(`tile server start`);
+app.listen(PORT, () => console.log(`tile server start`));
